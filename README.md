@@ -3,6 +3,7 @@
 COME USARE IL CODICE
 
    elaborate(dataset, 5, 50, 10, True)
+   
    compare(dataset, 5, 50, 10)
 
 
