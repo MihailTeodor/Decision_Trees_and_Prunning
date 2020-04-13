@@ -2,13 +2,8 @@
 
 COME USARE IL CODICE
 
-def main(dataset):
-    '''
-    elaborate() function generates a decision tree based on file dataset and then pruns it plotting the results (True = light prunning; False = heavy prunning)
-    compare() function compares the two implementations of prunning (light and heavy)
-    '''
-    elaborate(dataset, 5, 50, 10, True)
-    compare(dataset, 5, 50, 10)
+   elaborate(dataset, 5, 50, 10, True)
+   compare(dataset, 5, 50, 10)
 
 
 main("cardata")
