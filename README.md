@@ -1,6 +1,6 @@
 # Decision_Trees_and_Prunning
 
-									                                    COME USARE IL CODICE
+COME USARE IL CODICE
 
 def main(dataset):
     '''
@@ -13,13 +13,13 @@ def main(dataset):
 
 main("cardata")
 
-	Per usare il codice, bisogna passare alla funzione main() il dataset su cui si desidera operare. Il dataset deve avere come prima riga gli attributi e l'attributo target deve essere l'ultimo.
+Per usare il codice, bisogna passare alla funzione main() il dataset su cui si desidera operare. Il dataset deve avere come prima riga gli attributi e l'attributo target deve essere l'ultimo.
 
 def elaborate(dataset, initial_error_rate, initial_examples_nr, number_of_iterations, m)
 
 def compare(dataset, initial_error_rate, initial_examples_nr, number_of_iterations)
 
-	I parametri delle due funzioni rappresentano: 
+I parametri delle due funzioni rappresentano: 
 		• file - denota il dataset su cui operare; 
 		• initial_error_rate - denota la percentuale dell'errore da introdurre nel grow set (la percentuale aumenta dello 25% ad ogni iterazione del ciclo principale delle rispettive funzioni); 
 		• initial_examples_nr - denota il numero iniziale di esempi presi casualmente dall'intero dataset sul quale costruire i tre dataset(grow set, validation set e test set) usati dall'elaborazione. 
@@ -27,7 +27,7 @@ def compare(dataset, initial_error_rate, initial_examples_nr, number_of_iteratio
 		• light - se True verrà usata l'implementazione 'light' della procedura di potatura; se False verrà usata quella 'heavy';
 
 
-	                                                            RIFERIMENTI
+RIFERIMENTI
 
 Questo progetto è stato svolto su base di quanto esposto in R&N 2009 §18.3,  Mitchell 1997, cap. 3. Inoltre è stato consultato il progetto al seguente link: https://github.com/yichen611/DecisionTreeWithPruning.
 
