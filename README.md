@@ -16,11 +16,18 @@ def elaborate(dataset, initial_error_rate, initial_examples_nr, number_of_iterat
 def compare(dataset, initial_error_rate, initial_examples_nr, number_of_iterations)
 
 I parametri delle due funzioni rappresentano: 
-		• file - denota il dataset su cui operare; 
-		• initial_error_rate - denota la percentuale dell'errore da introdurre nel grow set (la percentuale aumenta dello 25% ad ogni iterazione del ciclo principale delle rispettive funzioni); 
-		• initial_examples_nr - denota il numero iniziale di esempi presi casualmente dall'intero dataset sul quale costruire i tre dataset(grow set, validation set e test set) usati dall'elaborazione. 
-		  Il numero di esempi viene aumentato ad ogni iterazione interna di un numero pressato; • number_of_iterations - denota il numero delle iterazioni su cui fare la media ( i grafici mostrati qui sono ottenuti come media su 10 iterazioni); 
-		• light - se True verrà usata l'implementazione 'light' della procedura di potatura; se False verrà usata quella 'heavy';
+
+• file - denota il dataset su cui operare; 
+
+• initial_error_rate - denota la percentuale dell'errore da introdurre nel grow set (la percentuale aumenta dello 25% ad ogni iterazione del ciclo principale delle rispettive funzioni); 
+
+• initial_examples_nr - denota il numero iniziale di esempi presi casualmente dall'intero dataset sul quale costruire i tre dataset(grow set, validation set e test set) usati dall'elaborazione. 
+
+Il numero di esempi viene aumentato ad ogni iterazione interna di un numero pressato; 
+
+• number_of_iterations - denota il numero delle iterazioni su cui fare la media ( i grafici mostrati qui sono ottenuti come media su 10 iterazioni); 
+
+• light - se True verrà usata l'implementazione 'light' della procedura di potatura; se False verrà usata quella 'heavy';
 
 
 
